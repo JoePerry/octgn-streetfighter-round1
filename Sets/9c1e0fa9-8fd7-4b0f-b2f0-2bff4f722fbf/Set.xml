@@ -1,0 +1,796 @@
+<Set id="9c1e0fa9-8fd7-4b0f-b2f0-2bff4f722fbf" name="Street Fighter Round One" gameId="e6a5d364-b7da-4862-aed0-a3c4f10ebca7" version="1.0.0">
+<Cards>
+<Card id="b0f7ba32-748f-4074-9d54-620bd59b5d26" name="Alex" type="Character">
+<Property name="Text">Once per turn when you finish a combo with a throw, you may put it in your hand instead of your energy pile. (*) When your effects lower damage to your rival's attacks, increase the amount lowered by 2.</Property>
+</Card>
+<Card id="8c2af242-267d-478b-afcd-1f86c5279316" name="Dudley" type="Character">
+<Property name="Text">You cannot play kicks. (*) When you flip an event because you played a punch, draw a card. (*) Anytime you draw an event, you may reveal it and set it.</Property>
+</Card>
+<Card id="0cb225ef-d998-4a95-b7af-f103bca30a2c" name="Ibuki" type="Character">
+<Property name="Text">When one of your kicks or weapons hits, your rival keeps -1 cards in his hand during this turn's Discard.</Property>
+</Card>
+<Card id="60f2778c-7414-40be-bce7-664a9f133c8a" name="Ken" type="Character">
+<Property name="Text">You can play low kicks and low projectiles as high kicks and high projectiles and vice versa. (*) When you play a kick or projectile, you may switch a card in your hand with the top card of your deck.</Property>
+</Card>
+<Card id="797bfead-28f3-4cbc-a4fb-5a26321c07fb" name="Ryu" type="Character">
+<Property name="Text">Your rival discards +1 card from his deck when your other effects discard cards from his deck. (*) Your first projectile each turn costs -1 energy for each punch in your energy pile.</Property>
+</Card>
+<Card id="b793795c-73ad-482f-8d18-47fd4eb739e8" name="Sean" type="Character">
+<Property name="Text">When your rival blocks a punch or kick, he must discard a card from his hand or take +2 chipping. (*) While your rival has 5 or more energy, cards that go into his energy pile are discarded instead.</Property>
+</Card>
+<Card id="2e156e82-72ab-4262-88d9-08ed291f6934" name="Twelve" type="Character">
+<Property name="Text">When you flip an event, put it in your energy pile after it finishes. (*) At the start of Battle, you may discard an event in your energy pile to put a weapon from your discard pile into your hand.</Property>
+</Card>
+<Card id="443d0d96-ea33-4495-93d8-f81100c2f9d7" name="Busted" type="Event">
+<Property name="Text">Flip when your rival blocks a punch. This attack's chipping gains +X. X = your energy.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="dcdfc4af-20e9-4100-a7f8-a14416991712" name="Fond Memories" type="Event">
+<Property name="Text">Flip when your rival attacks. Put the top card of your discard pile into your hand. Remove this card. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="fe03d452-308a-44c2-b72f-e6efe10c687b" name="Form of the Mountain" type="Event">
+<Property name="Text">Flip at the start of Battle. Your rival's attacks do -1 damage this step.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="8e245bc0-c61d-40c1-ad54-e59f1e736986" name="Killer Bee Recon" type="Event">
+<Property name="Text">STREET FIGHTER ONLY. (*) Flip at the start of Battle. Your rival reveals his hand.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="eefbfced-bc7e-47f3-b9a0-0580eb4d9785" name="Looking Good" type="Event">
+<Property name="Text">Flip when you pass. Your rival reveals his hand. Choose and discard a card in his hand. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="def93e1b-93ab-457c-8bc4-090ef8e88770" name="Power of a God" type="Event">
+<Property name="Text">Flip when you pass. End this step. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="098ac169-c099-4908-bfb2-94f89174c5ef" name="Sensei's Death" type="Event">
+<Property name="Text">Flip when you attack. Discard a rival's face-down card in the arena. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="ddd5b317-215e-4b18-ad6c-1f1060f56a85" name="Shadaloo Warrior" type="Event">
+<Property name="Text">Flip when you attack. You may link a punch from this attack.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="f7788868-c7eb-45df-b16b-6bf9019381b8" name="The Master's Teaching" type="Event">
+<Property name="Text">Flip at the start of Discard. You may keep +3 cards in your hand this step.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="d03c3731-b598-4518-bf73-e14c561cc004" name="Thuggin" type="Event">
+<Property name="Text">Flip when you attack. Your rival must pay 2 energy before he can block this attack.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="ed7c1d53-1ba3-42da-a1a8-93e0c9d8c882" name="Uncontrollable Rage" type="Event">
+<Property name="Text">Flip when you play a 0 or 1 cost attack. This attack becomes "high" and "low" and requires your rival to block high and low. He may block it twice.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="1158e5a6-87f2-4252-b9aa-b15bd2dacf7e" name="Aerial Combo" type="Attack">
+<Property name="Text">HIT- This card stays on the table to be played 1 more time this step. Discard this card the 2nd time this attack finishes or when this step ends,</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="5a4494a4-edbb-4358-ad3a-b5f836f17466" name="Assist" type="Attack">
+<Property name="Text">HIT - Look at and rearrange the top 4 cards of your deck. You may look and rearrange an extra card for each projectile in your energy pile.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="138570c8-3b27-4be8-8af2-c266d9c518f1" name="Back to Back" type="Attack">
+<Property name="Text">HIT - Put the top card of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="0889a442-1b4c-4b47-b719-5a32a9a5ae72" name="Backlash" type="Attack">
+<Property name="Text">HIT - If you have a kick in your energy pile, name a card. Your rival reveals his hand and discards any copies of that card in his hand.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Weapon</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="62a9deae-3e62-434c-b5da-a3b210ca5330" name="Basketball Poke" type="Attack">
+<Property name="Text">HIT - If linked from a weapon, your rival's attacks cost +1 energy this step.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="938683cd-9fde-4f57-932e-55b8e3b93c47" name="Ceiling Dive" type="Attack">
+<Property name="Text">HIT - Your rival's attacks cost +2 energy in his next action.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Weapon</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="a47630c5-ff72-424a-903e-bdfd159f5f4e" name="Crouching Fierce Punch" type="Attack">
+<Property name="Text">Your rival's first attack in his next action deals no damage if you have 15 or fewer cards in your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="5e679892-2732-4bfe-b179-e4c305dcb045" name="Crow Kick" type="Attack">
+<Property name="Text">HIT - When you link a kick in this combo, discard the top card of your rival's deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">3</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="0b6c82b3-6a41-4154-9fbc-dfa6b5625b2d" name="Dark Shoryuken" type="Attack">
+<Property name="Text">Pay any amount of energy. For each energy paid, discard the top card of your rival's deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="9f35fe09-ddba-42c4-8d7d-09b2483b85b6" name="Dragon Elbow" type="Attack">
+<Property name="Text">HIT - Each player discards X cards from the top of his deck. X = the number of cards in each player's hand.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="de8b0b2e-ef8b-4b76-9e6f-ff898f14f36b" name="Face Crush" type="Attack">
+<Property name="Text">You may pay 1 energy to have this attack do +X damage. X = the damage the previous attack in this combo dealt, to a max of +4.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="cc74b4be-7a83-4dba-bd83-7ecfeeba4997" name="Face Jab" type="Attack">
+<Property name="Text">HIT - You may pay 1 energy to keep your rival from playing low attacks in his next action.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="6ea8ee5d-db21-4289-b6e2-c1a593b2e539" name="Fire Fists" type="Attack">
+<Property name="Text">HIT - If your rival blocks your next attack in this combo, you may return it to your hand instead of putting it into your energy pile.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="860d53dc-7fc1-4460-aa3a-feb3b57c12be" name="Forward Fierce" type="Attack">
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">5</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="11281adc-9081-4d56-a156-fff887e9c9cd" name="Gloves of Steel" type="Attack">
+<Property name="Text">If played by Dudley or Balrog, punches can link from this attack. (*) HIT - Discard the top card of your rival's deck for each of your face-down cards in the arena, to a max of 3.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="39909286-2b34-4d3f-9b35-49e05281f9ce" name="Grab and Throw" type="Attack">
+<Property name="Text">Your rival must discard one of his face-down cards in the arena before he can block this attack.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="bfe6a116-f127-4b1c-a2c4-769c2755a7e3" name="Handstand Whip" type="Attack">
+<Property name="Text">HIT - You may put the projectile closest to the top of your discard pile on top of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="6b1785dd-3f67-4131-9563-9a2d50c48d1c" name="Head Crunch" type="Attack">
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">3</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="9ff17a44-5a6c-40b6-ab4d-1b9a771ed508" name="Head Kick" type="Attack">
+<Property name="Text">If played in a combo that included a weapon attack, your rival puts a card from his hand on top of his deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="54f545c1-c754-4789-b8d0-a6cdf9c4104c" name="Hurricane Kicks" type="Attack">
+<Property name="Text">HIT - Put the bottom 3 cards of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="54b170c3-684a-4ad5-8f90-e9dbf864e26d" name="Inside Jab" type="Attack">
+<Property name="Text">HIT - Your next attack in this combo does +2 damage.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="96898f8a-97ad-4f16-af04-45c701063201" name="Jump Kick" type="Attack">
+<Property name="Text">If played as the 3rd or higher attack in a combo, discard the top 2 cards of your rival's deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="7f0fa8e1-d315-4614-838f-0368c48fcc56" name="Jumping Punch" type="Attack">
+<Property name="Text">When your rival blocks this attack and he has 2 or less energy, he discards the top 2 cards of his deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="270898c9-901f-403a-ac95-5fb8d0adb486" name="Ki Charge" type="Attack">
+<Property name="Text">If played by Ryu, this attack can link as a projectile and may have a projectile follow up.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">5</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="041f7923-adb4-4de0-b670-55d43eb46932" name="Kubi-jime Katagurama" type="Attack">
+<Property name="Text">HIT - Your rival must pay an extra 2 energy before he can block the next attack in this combo.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="cc9d8c99-3dd5-401e-92e2-fe155d25abba" name="Leaping Kick" type="Attack">
+<Property name="Text">When an event is damaged by an attack in this combo, you may put that attack on top of your deck instead of your energy pile.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="05b47bdc-f4b7-451d-8773-fafaae05fdf0" name="Muay Thai Leap" type="Attack">
+<Property name="Text">Your rival's high attacks in his next action do -1 damage for each throw in your energy pile, to a max of -2.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="b6236c8c-c57a-40be-be91-34410cc55189" name="Multi-Kicks" type="Attack">
+<Property name="Text">HIT - Put the bottom card of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="c9134a5c-ce9d-4408-bc22-298589813288" name="Neck Breaker" type="Attack">
+<Property name="Text">HIT - Put the top 2 cards of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="8280ced8-0e57-4973-8f4c-061ce937d7d0" name="Overpowered Ki" type="Attack">
+<Property name="Text">Discard one of your face-down events in the arena to discard the top 3 cards of your rival's deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="a22dab7d-aa82-47fd-b21c-5bbf685ffa50" name="Push" type="Attack">
+<Property name="Text">Lower the damage of your rival's first attack in his next action by the amount of damage this attack deals.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="be22d521-951b-47f6-8ab0-10c61328396e" name="Quick Strikes" type="Attack">
+<Property name="Text">HIT - Anytime you play another attack in this combo, put the bottom card of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="f16787da-b0ed-42d0-8b15-40684a196e7d" name="Rapid Wrists" type="Attack">
+<Property name="Text">HIT - Draw a card if you have a kick in your energy pile.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="91361ccb-9bb1-4091-953d-781bbc8d830f" name="Rising Gut Kick" type="Attack">
+<Property name="Text">HIT - Your rival takes 3 random cards from his hand and puts them at the bottom of his deck and draws 1 card for each card put there from this effect.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="ac2e8499-c9c2-4d4b-8c00-63b3cb76ecbf" name="Strong Throw" type="Attack">
+<Property name="Text">HIT - The first time your cards are damaged during your rival's next action, put any damaged throws at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="afa5d894-4f69-4ba0-94e6-344803967741" name="Strongman Slam" type="Attack">
+<Property name="Text">HIT - If your rival blocks the next attack in this combo, he takes +X chipping. That attack cannot have its damage modified. X = half the attack's damage, rounded up.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="9b3233bf-fe74-442a-8614-08052b053384" name="Test of Strength" type="Attack">
+<Property name="Text">HIT - Put up to 3 throws in your hand at the bottom of your deck and draw the same number of cards.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="e34b280b-2f41-41f1-acf6-ba32933a160e" name="Tiger Shot" type="Attack">
+<Property name="Text">Your rival must reveal a 2nd block from his hand without playing it before he can block this attack. (*)HIT - Reveal the top 5 cards of your deck. Set any events and put the rest at the bottom of your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="d1b01eca-c5bf-4e55-8178-23c9392c7dd9" name="Tiger Uppercut" type="Attack">
+<Property name="Text">You may play this card to block a high attack.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="70e9f56b-ea7d-4129-b7df-17c378fed268" name="Universal Overhead" type="Attack">
+<Property name="Text">Discard the top card of your deck. If it can link from this card, play it.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="f182f507-2031-4b04-84cc-dbbcb82ab95b" name="Violent Knee Drop" type="Attack">
+<Property name="Text">HIT - When you play another attack in this combo, end this step when that attack finishes.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="e1f359ad-a692-4d4f-8d79-1f47f18ff0dd" name="Backstab" type="Attack">
+<Property name="Text">HIT - Your rival keeps - 2 cards in his hand during this turn's Discard.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="5ffc41b0-2cfb-4c8f-bded-808e0022940e" name="Ballroom Blitz" type="Attack">
+<Property name="Text">Damage from this attack and any other attacks in this combo cannot be lowered.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="b34a311d-5092-4442-92e1-4a4491fdc028" name="Body Kick" type="Attack">
+<Property name="Text">HIT - If linked from a throw, put 3 throws from your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="d36967fd-07ab-4f8a-9292-d8deef21227c" name="Close Knee" type="Attack">
+<Property name="Text">If you have exactly 2 energy, this attack does +3 damage.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="22a0e67a-1d9f-4242-b374-237b77ebcfed" name="Hitting the Weak Spot" type="Attack">
+<Property name="Text">HIT - Your rival cannot play high attacks in his next action.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">3</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="9e38e13a-e36e-4fce-a693-de74e9f7951c" name="Palm Thrust" type="Attack">
+<Property name="Text">When your rival takes chipping during this combo, he takes double that amount.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="b01c3bc4-4b1a-4136-aa2c-370641226232" name="Gekirou" type="Attack">
+<Property name="Text">HIT - If your next attack in this combo hits, that attack deals no damage. Put X cards from the bottom of your discard pile at the bottom of your deck instead. X = the damage that attack would have dealt.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="cecf5f01-45a0-458e-91b6-706aaad8251e" name="Sharp Edge" type="Attack">
+<Property name="Text">HIT - If your rival has more cards in his hand than you, he discards a card from his hand.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Weapon</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="042ee8c2-080a-4d79-8458-2dd8548196eb" name="Shocking!" type="Attack">
+<Property name="Text">HIT - The next attack in this combo can be played from the top of your discard pile if it can link from this attack.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Electric</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="43db93ab-07df-4d2b-87f5-e57b2a8babcc" name="Sinking Elbow" type="Attack">
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">3</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="63b99df8-11ef-474e-ad31-bb4b3488d50b" name="Sparring" type="Attack">
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Punch</Property>
+</Card>
+<Card id="7a90ad7d-54dc-4f80-9154-25f350d52e05" name="Sumo Tackle" type="Attack">
+<Property name="Text">Discard up to X cards from the top of your deck to discard the same number of cards from the top of your rival's deck. X = the number of punches in your energy pile.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="5bce3a6e-f026-408c-820c-c230156dc371" name="Zanku Hadouken" type="Attack">
+<Property name="Text">Your rival must pay +1 energy to block this attack for each throw in your energy pile.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="f94fb360-beaa-4350-9e7a-c57897f01545" name="Aerial Stuff" type="Block">
+<Property name="Text">If this blocks a kick, remove up to 3 cards in your rival's discard pile.</Property>
+<Property name="Attack">High Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="089070e9-935d-4a75-b7bd-a3ed3d3952ad" name="Duck" type="Block">
+<Property name="Text">If you have a kick in your energy pile, put the bottom 2 cards of your discard pile at the bottom of your deck.</Property>
+<Property name="Attack">High Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="ca216ada-7375-4595-8aeb-9e9e3dab4337" name="High Impact Stop" type="Block">
+<Property name="Text">Your rival's effects cannot discard from your deck or increase damage this step.</Property>
+<Property name="Attack">High Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="325d9c55-ca73-494c-9e67-f3a0e33e4cfd" name="Iron Defense" type="Block">
+<Property name="Text">If this card blocks a throw, the costs of your other cards this step cannot be modified.</Property>
+<Property name="Attack">High Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="b4bed38d-2e64-4f57-9b8d-05edfb13285e" name="Slide Aside" type="Block">
+<Property name="Attack">High Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="7e8a1c3f-d273-42aa-95a5-c54e274a07cb" name="Back Bend" type="Block">
+<Property name="Text">If this blocks a weapon, your attacks chip +2 this turn.</Property>
+<Property name="Attack">Low Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="17426dd1-df24-409d-bec4-870bc35ec0a5" name="Projectile Reflection" type="Block">
+<Property name="Text">If this blocks a projectile, your rival's action ends after this attack finishes.</Property>
+<Property name="Attack">Low Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="12de347f-8424-4928-8d86-2cb6c0cf0c47" name="Weight Shift" type="Block">
+<Property name="Text">Your throws cost -1 energy this step.</Property>
+<Property name="Attack">Low Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="097d8b9f-a526-4623-8577-a54abfe73cd2" name="Elena" type="Character">
+<Property name="Text">Your punches are kicks. (*) Once per attack, when you link from or into a kick during a combo, put the bottom card of your discards at the bottom of your deck.</Property>
+</Card>
+<Card id="e2b6bd40-36c7-48a1-82dd-635223dc0f60" name="Gill" type="Character">
+<Property name="Text">All your attacks that cost 1 or more do +2 damage. (*) When you finish a combo of 3 or more attacks, draw a card.</Property>
+</Card>
+<Card id="eff1e15e-9b01-4cae-a444-ad238b3a074b" name="Hugo" type="Character">
+<Property name="Text">When a throw is damaged from your deck and you have less than 8 energy, put it into your energy pile. (*) When your first attack in an action is a throw, you may pay X energy to have it do +X damage. (*) Your deck may have 10 extra cards.</Property>
+</Card>
+<Card id="8c49f18f-e9c3-47a5-84f3-3602777c7186" name="Dark Magic" type="Event">
+<Property name="Text">Flip when you attack. It takes 2 blocks to block this attack. This attack's damage cannot be lowered.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="240652c5-204f-4cb2-8fa2-b10870e529b9" name="Elena's Healing" type="Event">
+<Property name="Text">Flip as an action in Battle. Put the bottom 12 cards of your discard pile at the bottom of your deck in any order. Remove this card.</Property>
+<Property name="Cost">4</Property>
+</Card>
+<Card id="67a781e5-172e-41d3-a30c-c0e54dfaaa91" name="Gill's Resurrection" type="Event">
+<Property name="Text">Flip when you would lose a round. Shuffle your discard pile into your deck. The round is not over. Remove this card. (*) Limit 1 per deck.</Property>
+<Property name="Cost">5</Property>
+</Card>
+<Card id="431a2250-4ca0-4c17-ac77-003d44860db1" name="The Dark Hadou" type="Event">
+<Property name="Text">RYU, KEN AND AKUMA ONLY. (*) Flip at the start of Battle. Your attacks do +2 damage this step.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="36c53d0e-e3b7-45a8-8579-dee4d47de272" name="What a Combo!" type="Event">
+<Property name="Text">Flip after you finish a combo. End this step. (*) Limit 1 per deck.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="a5b49239-ac90-49e6-9bad-231fbb0008d1" name="Alex's Boomerang Raid" type="Attack">
+<Property name="Text">Put a throw from your discard pile into your hand. You can only play 1 more attack in this combo.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+<Property name="Link">Throw</Property>
+</Card>
+<Card id="0b8446ab-8bf3-42e8-9efe-f8a1e1296da7" name="Alex's Hyper Bomb" type="Attack">
+<Property name="Text">Your rival must pay 3 energy and discard 2 cards from his hand before he can block this attack.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="b4113cb8-caa4-4805-969d-ff8c60217f23" name="Dudley's Corkscrew Blow" type="Attack">
+<Property name="Text">Set 2 events from your discard pile that do not draw cards.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="804fb52f-2baa-4945-9afa-f9595896d88c" name="Dudley's Rocket Uppercut" type="Attack">
+<Property name="Text">HIT - Put up to 10 events from your discard pile on top of your deck in any order.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="58ec22b9-6c94-4ce8-a543-4e109467c81d" name="Gill's Seraphic Wing" type="Attack">
+<Property name="Text">Discard the top 10 cards of your rival's deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">5</Property>
+<Property name="Damage">15</Property>
+</Card>
+<Card id="9c3a52cf-3ffb-4a5d-b567-b657a19d97a5" name="Hugo's Hammer Frenzy" type="Attack">
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">15</Property>
+</Card>
+<Card id="20d7cb98-7271-41fb-9205-b302bab9c859" name="Hugo's Megaton Press" type="Attack">
+<Property name="Text">HIT - You may search and discard up to 4 cards from your deck as damage and then shuffle your deck.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">25</Property>
+</Card>
+<Card id="068465de-a710-496d-9d23-261b2bfacf72" name="Ibuki's Kasumi Suzaku" type="Attack">
+<Property name="Text">HIT - Your rival discards 2 random cards from his hand.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="416f9877-d47a-42e3-ba02-507f3831e30f" name="Ibuki's Yoroi Doshi" type="Attack">
+<Property name="Text">You may change this attack to a projectile when you play it. (*) HIT - All players discard their hands.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Throw</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="4695a81b-a0ad-41ca-8411-b1897959c23b" name="Ken's Shippu Jinraikyaku" type="Attack">
+<Property name="Text">Put this card on top of your deck after it finishes instead of your energy pile.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">13</Property>
+</Card>
+<Card id="256e8cba-ea23-4e38-8f9c-47541de87622" name="Ken's Shoryu Reppa" type="Attack">
+<Property name="Text">Discard all of your rival's face-down cards in the arena.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="eb8a2375-5678-44c8-b94e-68fb63f013df" name="Ryu's Shin Shoryuken" type="Attack">
+<Property name="Text">HIT - Choose any attacks in your energy pile without "Ryu" in the title and use the text on those cards except for their "HIT -" texts.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="7f938488-728c-4ecb-b02e-50e6ad39addc" name="Sean's Hyper Tornado" type="Attack">
+<Property name="Text">HIT - Discard all your rival's energy.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="56f02fb5-b287-4edf-b44f-568782a31499" name="Super Assault" type="Attack">
+<Property name="Text">HIT - Switch a card in your discard pile that has a character's name in the title with a card in your hand.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="a55e9128-8488-4c9b-bbbc-7acaf608c164" name="Twelve's X.C.O.P.Y." type="Attack">
+<Property name="Text">Search your rival's deck for any attack and play it at no cost instead of this one. When it finishes, discard it into your rival's discard pile and put this card into your energy pile. Link from your rival's card.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Weapon</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">4</Property>
+</Card>
+<Card id="322583d5-cc9e-431e-9bb1-7dbc278a9a2f" name="Crouching Fierce Kick" type="Attack">
+<Property name="Text">HIT - When you link from this attack, you may pay an extra energy to keep it in the arena to be played 1 extra time. The final time it is played, or when the step ends, remove it.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">1</Property>
+<Property name="Damage">4</Property>
+</Card>
+<Card id="56c5670f-36a0-4f5e-8c3a-be5c55792d5e" name="Elena's Brave Dance" type="Attack">
+<Property name="Text">Draw the bottom card of your deck. (*) HIT - Draw the bottom card of your deck. (*) Remove this card.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="1b1e3a94-6e30-4429-a53a-68523a4a989a" name="Kunai Dart" type="Attack">
+<Property name="Text">HIT - Discard a card in your rival's energy pile. Put a card in your rival's discard pile into his energy pile.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Weapon</Property>
+</Card>
+<Card id="f2afc9a1-b81a-4fbc-a174-0a12a5aa435d" name="Lunging Sweep" type="Attack">
+<Property name="Text">If you have more energy than your rival, this attack stays in the arena to be played a second time this step. If the step ends while it is in the arena, discard it.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Kick</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Projectile</Property>
+</Card>
+<Card id="f05f8e1b-7038-44cc-b4e0-e026c55e69ba" name="Ryu's Shinku Hadoken" type="Attack">
+<Property name="Text">The first time this card is played, choose 2 attacks in your energy pile without "Ryu's" in the title and use the texts on those cards except for "HIT -" texts.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">4</Property>
+<Property name="Damage">20</Property>
+</Card>
+<Card id="4a617fe4-74e8-419c-95bd-9f79e8e238ba" name="Sean Tackle" type="Attack">
+<Property name="Text">HIT - Discard a card in your rival's energy pile.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="e8eff4b0-df57-46b2-8893-1c443ace1aab" name="Tag Team" type="Attack">
+<Property name="Text">The first event flipped with this attack is flipped face-down instead of discarded and cannot be flipped again this turn.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="862e4d2e-f97a-4eee-ac97-af7ec348fd1d" name="Twelve's X.N.D.L." type="Attack">
+<Property name="Text">Set an event from your discard pile for each weapon in your energy pile.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Projectile</Property>
+<Property name="Cost">2</Property>
+<Property name="Damage">10</Property>
+</Card>
+<Card id="f830252a-556b-4d7e-8f43-b3067e408039" name="Amazing Defense" type="Block">
+<Property name="Text">STREET FIGHTER ONLY. (*) Block all of your rival's low attacks this step. Remove this card. (*) Limit 1 per deck.</Property>
+<Property name="Attack">Low Block</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="2ef4b497-fad7-49f4-979d-2c94dc48aa5e" name="Capcom Team Up" type="Block">
+<Property name="Text">STREET FIGHTER ONLY. (*) You may pay 1 energy to have this card stay in the arena to be played a second time this step. Discard this card the second time you play it, or when this step ends.</Property>
+<Property name="Attack">Low Block</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="071adbd7-0e2f-41c0-90db-ffe05ff39189" name="Fighting the Darkness" type="Event">
+<Property name="Text">Flip when you attack. Put an attack with the same attack trait from your discard pile into your hand. Remove this card. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="dfe9e8dc-4a44-4ca0-a9c7-e90f1889a411" name="Information Gathering" type="Event">
+<Property name="Text">STREET FIGHTER ONLY. Flip at the start of Set. Search your deck for 2 events, reveal them and set them. (*) Limit 1 per deck.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="b138e3a2-38b3-4be2-b89b-b6c94e419311" name="Jab" type="Attack">
+<Property name="Text">While in your energy pile at the end of Battle, you may put a card with "Jab" in the title from your energy pile into your hand.</Property>
+<Property name="Attack">High Attack</Property>
+<Property name="Attack Type">Punch</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="f9129a88-bd22-4ba0-a770-a25f11a4c2b1" name="Flying Peach" type="Attack">
+<Property name="Text">HIT - The next kick in this combo can be played out of your energy pile. You cannot discard that attack to pay for itself.</Property>
+<Property name="Attack">Low Attack</Property>
+<Property name="Attack Type">Slam</Property>
+<Property name="Cost">0</Property>
+<Property name="Damage">2</Property>
+<Property name="Link">Kick</Property>
+</Card>
+<Card id="03f5685a-c6e9-44e8-88a9-3f2d2595a3ea" name="Evil Ryu" type="Character">
+<Property name="Text">(Counts as Ryu.) When you attack, you may discard one of your face-down cards in the arena to search your deck for The Dark Hadou and set and flip it immediatelly at no cost.</Property>
+</Card>
+<Card id="ea7b33f2-d18f-4580-8c4a-1be54a0151b6" name="Deep Injury" type="Event">
+<Property name="Text">Flip when you attack, all damage and chipping from this attack, and others in this combo are removed.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="449c0f7d-67fe-4fde-b71f-0959b57c8440" name="Perfect Pose" type="Event">
+<Property name="Text">Flip when you attack. You may put that attack on top of your deck after it finishes. Remove this card.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="cd12adb4-f2c5-4591-b0e3-81f961af351f" name="Interpol Agent" type="Event">
+<Property name="Text">Flip when your Rival reveals his hand (*) Choose and discard a card from that hand.</Property>
+<Property name="Cost">1</Property>
+</Card>
+<Card id="2e047169-c288-4617-9f48-1ed214e28486" name="Super Leap" type="Event">
+<Property name="Text">Flip when you attack. Discard an attack from your hand to discard an attack with the same attack trait in you rival's energy pile. If this happens, put a card from his discard pile into his energy pile.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="62e9648c-df83-4650-8a73-f0a085054cb4" name="Gouken" type="Character">
+<Property name="Text">Your attacks do +1 damage. You may hold +1 card in your hand during Discard.</Property>
+</Card>
+<Card id="90c87a41-dfe4-4b5c-8f2a-fe4c66606898" name="Evil Reborn" type="Event">
+<Property name="Text">Flip at the start of Battle. Discard a projectile from your hand to stop all effects that modify the costs of your attacks this step.</Property>
+<Property name="Cost">0</Property>
+</Card>
+<Card id="db22247b-3d3b-4338-a3f7-de03e071710b" name="Recovery" type="Event">
+<Property name="Text">Flip when an effect puts cards from your discard pile into your deck. Double the amount. Remove this card.</Property>
+<Property name="Cost">0</Property>
+</Card>
+</Cards>
+</Set>
+  </Cards>
+</Set>
