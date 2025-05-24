@@ -1,0 +1,15 @@
+{
+  "name": "Epic Battles - Street Fighter Round One",
+  "game": {
+    "id": "e6a5d364-b7da-4862-aed0-a3c4f10ebca7",
+    "version": "1.0.0"
+  },
+  "packages": [
+    {
+      "name": "Street Fighter Round One",
+      "version": "1.0.0",
+      "url": "https://joeperry.github.io/octgn-streetfighter-round1/release/sf1-package.zip",
+      "notes": "Initial release of Street Fighter Round One set."
+    }
+  ]
+}
